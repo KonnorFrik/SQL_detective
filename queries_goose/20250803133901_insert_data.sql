@@ -286,7 +286,6 @@ INSERT INTO civilian (
     )
 ;
 
--- TODO: use deepseek for generate same routine events for each civilian who work at same place 
 INSERT INTO action (
     title, subject_id, description, recorder_at
 ) VALUES

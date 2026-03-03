@@ -19,3 +19,5 @@ services:
       GOOSE_PG_HOST: "postgres"
       GOOSE_PG_PORT: "5432"
       GOOSE_PG_DB: $PG_DATABASE
+    depends_on:
+      - postgres

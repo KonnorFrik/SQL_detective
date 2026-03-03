@@ -295,37 +295,46 @@ INSERT INTO action (
 ('system power check', null, 'building: Office Center:342. indoor camera checking... Status: online', '2025-07-28 08:30:21'::timestamp),
 
 
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Lily' AND second_name = 'Wong'), 'What happend: go out from home. Guess: go to the - work', '2025-07-28 08:42:57'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Emily' AND second_name = 'Martinez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-28 08:43:45'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Maria' AND second_name = 'Hernandez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-28 08:44:17'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-28 08:44:56'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-28 08:45:33'::timestamp),
 ('outdoor camera catch', (select id from civilian where first_name = 'John' and second_name = 'Doe'), 'What happend: go out from home. Guess: go to the - work', '2025-07-28 08:46:21'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Samantha' AND second_name = 'Perez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-28 08:47:29'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-28 08:48:44'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Michael' AND second_name = 'Garcia'), 'What happend: go out from home. Guess: go to the - work', '2025-07-28 08:49:12'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Lily' AND second_name = 'Wong'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-28 08:53:31'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Maria' AND second_name = 'Hernandez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-28 08:53:49'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Emily' AND second_name = 'Martinez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-28 08:54:18'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-28 08:54:27'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-28 08:55:47'::timestamp),
 ('outdoor camera catch', (select id from civilian where first_name = 'John' and second_name = 'Doe'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-28 08:56:08'::timestamp),
+('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Lily' AND second_name = 'Wong'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-28 08:57:15'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Maria' AND second_name = 'Hernandez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-28 08:57:31'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Emily' AND second_name = 'Martinez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-28 08:57:49'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Samantha' AND second_name = 'Perez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-28 08:57:53'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-28 08:58:05'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-28 08:58:12'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-28 08:58:16'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Michael' AND second_name = 'Garcia'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-28 08:58:44'::timestamp),
 ('indoor camera catch', (select id from civilian where first_name = 'John' and second_name = 'Doe'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-28 08:59:34'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Samantha' AND second_name = 'Perez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-28 09:01:18'::timestamp),
+('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-28 09:01:39'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Michael' AND second_name = 'Garcia'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-28 09:01:53'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: go out from building: Office Center:342. Guess: go to smoke break', '2025-07-28 09:09:27'::timestamp), -- перекур
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: go out from building: Office Center:342. Guess: go to smoke break', '2025-07-28 09:10:47'::timestamp), -- перекур
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: go out from building: Office Center:342. Guess: go to smoke break', '2025-07-28 09:13:16'::timestamp), -- перекур
 -- dayoff
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Maria' AND second_name = 'Hernandez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-28 17:59:52'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Emily' AND second_name = 'Martinez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-28 18:00:24'::timestamp),
 ('outdoor camera catch', (select id from civilian where first_name = 'John' and second_name = 'Doe'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-28 18:01:07'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Lily' AND second_name = 'Wong'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-28 18:01:18'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Samantha' AND second_name = 'Perez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-28 18:02:36'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-28 18:03:29'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-28 18:03:47'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Michael' AND second_name = 'Garcia'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-28 18:04:18'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-28 18:04:52'::timestamp),
 
 
 -- 1 day before incident
@@ -334,8 +343,10 @@ INSERT INTO action (
 
 
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Maria' AND second_name = 'Hernandez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-29 08:43:22'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Lily' AND second_name = 'Wong'), 'What happend: go out from home. Guess: go to the - work', '2025-07-29 08:44:49'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Samantha' AND second_name = 'Perez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-29 08:45:08'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Emily' AND second_name = 'Martinez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-29 08:46:33'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-29 08:46:55'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-29 08:47:15'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-29 08:47:51'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Michael' AND second_name = 'Garcia'), 'What happend: go out from home. Guess: go to the - work', '2025-07-29 08:48:37'::timestamp),
@@ -343,6 +354,8 @@ INSERT INTO action (
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Samantha' AND second_name = 'Perez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-29 08:54:42'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Maria' AND second_name = 'Hernandez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-29 08:55:11'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Emily' AND second_name = 'Martinez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-29 08:55:27'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Lily' AND second_name = 'Wong'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-29 08:55:33'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-29 08:56:28'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-29 08:57:14'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Michael' AND second_name = 'Garcia'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-29 08:57:22'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-29 08:57:38'::timestamp),
@@ -350,20 +363,23 @@ INSERT INTO action (
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Samantha' AND second_name = 'Perez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-29 08:58:27'::timestamp),
 ('outdoor camera catch', (select id from civilian where first_name = 'John' and second_name = 'Doe'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-29 08:58:42'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Emily' AND second_name = 'Martinez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-29 08:58:52'::timestamp),
+('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-29 08:59:43'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-29 09:00:38'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Michael' AND second_name = 'Garcia'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-29 09:00:41'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-29 09:00:52'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: go out from building: Office Center:342. Guess: go to smoke break', '2025-07-29 09:11:28'::timestamp), -- перекур
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: go out from building: Office Center:342. Guess: go to smoke break', '2025-07-29 09:12:14'::timestamp), -- перекур
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: go out from building: Office Center:342. Guess: go to smoke break', '2025-07-29 09:12:38'::timestamp), -- перекур
 -- dayoff
 ('outdoor camera catch', (select id from civilian where first_name = 'John' and second_name = 'Doe'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-29 17:55:27'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Samantha' AND second_name = 'Perez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-29 18:00:48'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-29 18:01:29'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-29 18:02:07'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Emily' AND second_name = 'Martinez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-29 18:02:13'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Maria' AND second_name = 'Hernandez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-29 18:02:45'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Lily' AND second_name = 'Wong'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-29 18:03:42'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Michael' AND second_name = 'Garcia'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-29 18:03:55'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-29 18:04:17'::timestamp),
-
 
 -- incident day
 ('system power check', null, 'building: Office Center:342. outdoor camera checking... Status: online', '2025-07-30 08:30:01'::timestamp),
@@ -372,31 +388,40 @@ INSERT INTO action (
 
 
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-30 08:44:25'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-30 08:44:38'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-30 08:45:42'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Maria' AND second_name = 'Hernandez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-30 08:45:59'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Michael' AND second_name = 'Garcia'), 'What happend: go out from home. Guess: go to the - work', '2025-07-30 08:47:08'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Lily' AND second_name = 'Wong'), 'What happend: go out from home. Guess: go to the - work', '2025-07-30 08:47:24'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Emily' AND second_name = 'Martinez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-30 08:48:19'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Samantha' AND second_name = 'Perez'), 'What happend: go out from home. Guess: go to the - work', '2025-07-30 08:49:37'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-30 08:54:09'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-30 08:54:22'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-30 08:55:19'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Maria' AND second_name = 'Hernandez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-30 08:55:42'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Michael' AND second_name = 'Garcia'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-30 08:56:51'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Lily' AND second_name = 'Wong'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-30 08:57:08'::timestamp),
 ('outdoor camera catch', (select id from civilian where first_name = 'John' and second_name = 'Doe'), 'What happend: go out from home. Guess: go to the - work', '2025-07-30 08:57:33'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Emily' AND second_name = 'Martinez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-30 08:58:03'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-30 08:58:27'::timestamp),
+('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-30 08:58:46'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Samantha' AND second_name = 'Perez'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-30 08:59:21'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Maria' AND second_name = 'Hernandez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-30 08:59:28'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-30 08:59:44'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Michael' AND second_name = 'Garcia'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-30 09:00:15'::timestamp),
+('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Lily' AND second_name = 'Wong'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-30 09:00:42'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Emily' AND second_name = 'Martinez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-30 09:01:37'::timestamp),
 ('indoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Samantha' AND second_name = 'Perez'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-30 09:02:55'::timestamp),
 ('outdoor camera catch', (select id from civilian where first_name = 'John' and second_name = 'Doe'), 'What happend: enter the building: Office Center:342. Guess: arrived at work', '2025-07-30 09:08:22'::timestamp),
-('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: go out from building: Office Center:342. Guess: go to smoke break', '2025-07-30 09:09:09'::timestamp); -- перекур
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: go out from building: Office Center:342. Guess: go to smoke break', '2025-07-30 09:09:09'::timestamp), -- перекур
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: go out from building: Office Center:342. Guess: go to smoke break', '2025-07-30 09:09:22'::timestamp), -- перекур
 ('indoor camera catch', (select id from civilian where first_name = 'John' and second_name = 'Doe'), 'What happend: enter into the elevator of building: Office Center:342. Guess: arrived at work', '2025-07-30 09:10:04'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: go out from building: Office Center:342. Guess: go to smoke break', '2025-07-30 09:10:19'::timestamp), -- перекур
 -- dayoff
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Lily' AND second_name = 'Wong'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-30 18:00:15'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Maria' AND second_name = 'Hernandez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-30 18:00:33'::timestamp),
-('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Michael' AND second_name = 'Garcia'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-30 18:01:42'::timestamp)
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Michael' AND second_name = 'Garcia'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-30 18:01:42'::timestamp),
+('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Jose' AND second_name = 'Gonzalez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-30 18:01:53'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'David' AND second_name = 'Martinez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-30 18:02:57'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Sarah' AND second_name = 'Rodriguez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-30 18:02:58'::timestamp),
 ('outdoor camera catch', (SELECT id FROM civilian WHERE first_name = 'Samantha' AND second_name = 'Perez'), 'What happend: left the building: Office Center:342. Guess: quits work', '2025-07-30 18:03:24'::timestamp),

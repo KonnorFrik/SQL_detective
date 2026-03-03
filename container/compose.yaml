@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: $POSTGRES_USER
+      POSTGRES_PASSWORD: $POSTGRES_PASSWORD
+      POSTGRES_DB: $PG_DATABASE
+    ports:
+      - "5432:5432"
+
+  migrator:
+    build:
+      context: ..
+      dockerfile: ./cmd/goose_standalone/Dockerfile
+    environment:
+      GOOSE_DRIVER: "postgres"
+      GOOSE_PG_USER: $PG_ADMIN_NAME
+      GOOSE_PG_PASS: $PG_ADMIN_PASS
+      GOOSE_PG_HOST: "postgres"
+      GOOSE_PG_PORT: "5432"
+      GOOSE_PG_DB: $PG_DATABASE
